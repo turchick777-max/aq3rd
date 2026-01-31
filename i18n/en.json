@@ -1,0 +1,102 @@
+{
+  "title": "QUALITY & STANDARDS",
+  "disclosure_note": "Public disclosure level: numbers shown only for safe-to-disclose \"hook metrics\"; the table shows status trends only.",
+  "badges": {
+    "who": "WHO",
+    "eu": "EU",
+    "us_epa": "US EPA",
+    "lab_verified": "Lab-verified",
+    "chain_of_custody": "Chain-of-custody",
+    "no_process_disclosure": "No process disclosure"
+  },
+  "badge_tooltips": {
+    "who": "World Health Organization (WHO)",
+    "eu": "European Union (EU)",
+    "us_epa": "U.S. Environmental Protection Agency (US EPA)",
+    "lab_verified": "Independent lab verification. Reports & protocols in the Data Room after e-NDA.",
+    "chain_of_custody": "Full sample tracking from collection to analysis",
+    "no_process_disclosure": "Operating parameters remain confidential"
+  },
+  "salt_reduction": {
+    "title": "Salt reduction",
+    "pilot": "pilot",
+    "value": "~900–1500×",
+    "description": "based on representative pilot samples (chain-of-custody); feed- and configuration-dependent."
+  },
+  "recovery": {
+    "title": "Product water recovery",
+    "value": "up to 98%",
+    "description": "feed-dependent; ultra-low concentrate / reject volume (full protocols after e-NDA)."
+  },
+  "chloride": {
+    "title": "Chloride",
+    "formula": "Cl⁻",
+    "raw_label": "Raw:",
+    "raw_value": "48,000 mg/L",
+    "after_label": "After:",
+    "after_value": "52 mg/L",
+    "guideline_label": "Guideline (WHO/EU/US EPA):",
+    "guideline_value": "≤ 350 mg/L",
+    "status": "below guideline"
+  },
+  "sodium": {
+    "title": "Sodium",
+    "formula": "Na⁺",
+    "raw_label": "Raw:",
+    "raw_value": "23,200 mg/L",
+    "after_label": "After:",
+    "after_value": "16 mg/L",
+    "guideline_label": "Guideline (WHO/EU/US EPA):",
+    "guideline_value": "≤ 200 mg/L",
+    "status": "below guideline"
+  },
+  "metrics_legend": "Raw — raw sample • After — after AQUINTAQA • Guideline — WHO/EU/US EPA benchmark",
+  "additional_metrics": {
+    "salt_capacity": "Operable at dissolved salts up to 200 g/L",
+    "salt_capacity_note": "feed-dependent",
+    "particle_removal": "Effective removal of particles < 1 μm",
+    "particle_removal_note": "colloids/suspended"
+  },
+  "footer_note": "Figures shown are safe to disclose. Full tables, chain-of-custody, and lab reports available after e-NDA.",
+  "quality_trends": {
+    "title": "Quality trends before/after (no values)",
+    "description": "Status comparison vs WHO/EU/US EPA benchmarks. Full numeric tables are available in the Data Room (e-NDA)."
+  },
+  "table": {
+    "parameter": "Parameter",
+    "raw_status": "Raw status",
+    "after_status": "After status",
+    "high": "HIGH",
+    "ok": "OK"
+  },
+  "parameters": {
+    "tds": "TDS",
+    "tds_full": "total dissolved solids",
+    "hardness": "Hardness",
+    "hardness_full": "Ca/Mg",
+    "nitrates": "Nitrates/Nitrites",
+    "chlorides": "Chlorides",
+    "ntu": "NTU",
+    "ntu_full": "turbidity",
+    "sulfates": "Sulfates",
+    "sulfates_formula": "SO₄²⁻",
+    "alkalinity": "Alkalinity",
+    "calcium_magnesium": "Calcium/magnesium",
+    "sodium_table": "Sodium",
+    "ammonium": "Ammonium",
+    "ammonium_formula": "NH₄⁺",
+    "color": "Color",
+    "odor_taste": "Odor/taste",
+    "scaling": "Scaling tendency",
+    "corrosion": "Corrosion potential"
+  },
+  "view_more": "View more parameters...",
+  "view_less": "Show less",
+  "legend": {
+    "title": "Legend:",
+    "red": "elevated baseline in raw water",
+    "green": "within WHO/EU/US EPA benchmarks",
+    "blue": "above benchmarks (if applicable)"
+  },
+  "nda_note": "The homepage shows status-only visualization without numeric values and without disclosing operating modes. Full before/after tables, sampling protocols (chain-of-custody), and lab reports available in White Paper and Data Room after e-NDA."
+}

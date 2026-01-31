@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quality & Standards - AQUINTAQA</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Language Switcher -->
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <span class="lang-divider">/</span>
+    <button class="lang-btn" data-lang="ru">RU</button>
+  </div>
+
+  <section class="quality-standards">
+    <!-- T-shaped Blueprint Line Structure -->
+    <div class="t-line-structure">
+      <!-- Horizontal bar of T (under title) -->
+      <div class="t-line-horizontal"></div>
+      <!-- Vertical stem of T (center divider) -->
+      <div class="t-line-vertical"></div>
+    </div>
+
+    <!-- Title -->
+    <header class="section-header">
+      <h1 class="section-title" data-i18n="title">QUALITY & STANDARDS</h1>
+    </header>
+
+    <!-- Main Content Grid -->
+    <div class="content-grid">
+      <!-- Left Column - Metrics -->
+      <div class="left-column">
+        <!-- Badges Row -->
+        <div class="badges-row">
+          <div class="badge" data-tooltip-key="who">
+            <span class="badge-icon">&#9881;</span>
+            <span data-i18n="badges.who">WHO</span>
+          </div>
+          <div class="badge" data-tooltip-key="eu">
+            <span class="badge-icon">&#9733;</span>
+            <span data-i18n="badges.eu">EU</span>
+          </div>
+          <div class="badge" data-tooltip-key="us_epa">
+            <span class="badge-icon">&#9883;</span>
+            <span data-i18n="badges.us_epa">US EPA</span>
+          </div>
+          <div class="badge" data-tooltip-key="lab_verified">
+            <span class="badge-icon">&#10003;</span>
+            <span data-i18n="badges.lab_verified">Lab-verified</span>
+          </div>
+          <div class="badge" data-tooltip-key="chain_of_custody">
+            <span class="badge-icon">&#9842;</span>
+            <span data-i18n="badges.chain_of_custody">Chain-of-custody</span>
+          </div>
+          <div class="badge" data-tooltip-key="no_process_disclosure">
+            <span class="badge-icon">&#128274;</span>
+            <span data-i18n="badges.no_process_disclosure">No process disclosure</span>
+          </div>
+        </div>
+
+        <!-- Salt Reduction Block -->
+        <div class="metric-card salt-reduction animate-on-scroll">
+          <div class="metric-header">
+            <h3>
+              <span data-i18n="salt_reduction.title">Salt reduction</span>
+              <span class="pilot-tag">(<span data-i18n="salt_reduction.pilot">pilot</span>)</span>
+            </h3>
+          </div>
+          <div class="metric-content">
+            <div class="metric-value-large" data-i18n="salt_reduction.value">~900–1500×</div>
+            <div class="metric-icon">
+              <svg width="60" height="40" viewBox="0 0 60 40">
+                <path d="M5 20 C10 10, 15 30, 20 20 C25 10, 30 30, 35 20"
+                      stroke="#4A90A4" stroke-width="2" fill="none"/>
+                <text x="40" y="15" fill="#4A90A4" font-size="8">→DC</text>
+                <circle cx="50" cy="25" r="6" fill="none" stroke="#4A90A4" stroke-width="1"/>
+                <path d="M47 25 L53 25 M50 22 L50 28" stroke="#4A90A4" stroke-width="1"/>
+              </svg>
+            </div>
+          </div>
+          <p class="metric-description" data-i18n="salt_reduction.description">
+            based on representative pilot samples (chain-of-custody); feed- and configuration-dependent.
+          </p>
+        </div>
+
+        <!-- Recovery Block -->
+        <div class="metric-card recovery animate-on-scroll">
+          <div class="metric-header">
+            <h3 data-i18n="recovery.title">Product water recovery</h3>
+          </div>
+          <div class="metric-content">
+            <div class="metric-value-large" data-i18n="recovery.value">up to 98%</div>
+            <div class="metric-icon">
+              <svg width="60" height="40" viewBox="0 0 60 40">
+                <circle cx="30" cy="20" r="15" fill="none" stroke="#4A90A4" stroke-width="1.5"/>
+                <path d="M30 8 L30 20 L40 20" stroke="#4A90A4" stroke-width="1.5" fill="none"/>
+                <path d="M22 32 Q30 28 38 32" stroke="#4A90A4" stroke-width="1" fill="none"/>
+              </svg>
+            </div>
+          </div>
+          <p class="metric-description" data-i18n="recovery.description">
+            feed-dependent; ultra-low concentrate / reject volume (full protocols after e-NDA).
+          </p>
+        </div>
+
+        <!-- Chloride and Sodium Row -->
+        <div class="metrics-row">
+          <!-- Chloride Block -->
+          <div class="metric-card metric-half animate-on-scroll">
+            <h3>
+              <span data-i18n="chloride.title">Chloride</span>
+              <span class="formula">(<span data-i18n="chloride.formula">Cl⁻</span>)</span>
+            </h3>
+            <div class="metric-details">
+              <div class="metric-line">
+                <span data-i18n="chloride.raw_label">Raw:</span>
+                <span class="value" data-i18n="chloride.raw_value">48,000 mg/L</span>
+              </div>
+              <div class="metric-line highlight">
+                <span data-i18n="chloride.after_label">After:</span>
+                <span class="value accent" data-i18n="chloride.after_value">52 mg/L</span>
+              </div>
+              <div class="metric-line guideline">
+                <span data-i18n="chloride.guideline_label">Guideline (WHO/EU/US EPA):</span>
+                <span class="value" data-i18n="chloride.guideline_value">≤ 350 mg/L</span>
+              </div>
+            </div>
+            <div class="status-ok">
+              <span class="checkmark">&#10003;</span>
+              <span data-i18n="chloride.status">below guideline</span>
+            </div>
+          </div>
+
+          <!-- Sodium Block -->
+          <div class="metric-card metric-half animate-on-scroll">
+            <h3>
+              <span data-i18n="sodium.title">Sodium</span>
+              <span class="formula">(<span data-i18n="sodium.formula">Na⁺</span>)</span>
+            </h3>
+            <div class="metric-details">
+              <div class="metric-line">
+                <span data-i18n="sodium.raw_label">Raw:</span>
+                <span class="value" data-i18n="sodium.raw_value">23,200 mg/L</span>
+              </div>
+              <div class="metric-line highlight">
+                <span data-i18n="sodium.after_label">After:</span>
+                <span class="value accent" data-i18n="sodium.after_value">16 mg/L</span>
+              </div>
+              <div class="metric-line guideline">
+                <span data-i18n="sodium.guideline_label">Guideline (WHO/EU/US EPA):</span>
+                <span class="value" data-i18n="sodium.guideline_value">≤ 200 mg/L</span>
+              </div>
+            </div>
+            <div class="status-ok">
+              <span class="checkmark">&#10003;</span>
+              <span data-i18n="sodium.status">below guideline</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metrics Legend -->
+        <p class="metrics-legend" data-i18n="metrics_legend">
+          Raw — raw sample • After — after AQUINTAQA • Guideline — WHO/EU/US EPA benchmark
+        </p>
+
+        <!-- Additional Metrics -->
+        <div class="additional-metrics animate-on-scroll">
+          <div class="additional-metric">
+            <span class="metric-icon-small">&#128167;</span>
+            <span data-i18n="additional_metrics.salt_capacity">Operable at dissolved salts up to 200 g/L</span>
+            <span class="metric-note">(<span data-i18n="additional_metrics.salt_capacity_note">feed-dependent</span>)</span>
+          </div>
+          <div class="additional-metric">
+            <span class="metric-icon-small">&#128300;</span>
+            <span data-i18n="additional_metrics.particle_removal">Effective removal of particles < 1 μm</span>
+            <span class="metric-note">(<span data-i18n="additional_metrics.particle_removal_note">colloids/suspended</span>)</span>
+          </div>
+        </div>
+
+        <!-- Footer Note -->
+        <p class="footer-note" data-i18n="footer_note">
+          Figures shown are safe to disclose. Full tables, chain-of-custody, and lab reports available after e-NDA.
+        </p>
+      </div>
+
+      <!-- Right Column - Quality Trends Table -->
+      <div class="right-column">
+        <div class="trends-card animate-on-scroll">
+          <div class="trends-header">
+            <h3 data-i18n="quality_trends.title">Quality trends before/after (no values)</h3>
+            <p class="trends-description" data-i18n="quality_trends.description">
+              Status comparison vs WHO/EU/US EPA benchmarks. Full numeric tables are available in the Data Room (e-NDA).
+            </p>
+          </div>
+
+          <!-- Status Table -->
+          <div class="status-table-wrapper">
+            <table class="status-table">
+              <thead>
+                <tr>
+                  <th data-i18n="table.parameter">Parameter</th>
+                  <th data-i18n="table.raw_status">Raw status</th>
+                  <th data-i18n="table.after_status">After status</th>
+                </tr>
+              </thead>
+              <tbody class="main-parameters">
+                <tr>
+                  <td>
+                    <span data-i18n="parameters.tds">TDS</span>
+                    <span class="param-detail">(<span data-i18n="parameters.tds_full">total dissolved solids</span>)</span>
+                  </td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <span data-i18n="parameters.hardness">Hardness</span>
+                    <span class="param-detail">(<span data-i18n="parameters.hardness_full">Ca/Mg</span>)</span>
+                  </td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.nitrates">Nitrates/Nitrites</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.chlorides">Chlorides</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <span data-i18n="parameters.ntu">NTU</span>
+                    <span class="param-detail">(<span data-i18n="parameters.ntu_full">turbidity</span>)</span>
+                  </td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+              </tbody>
+              <tbody class="extra-parameters hidden">
+                <tr>
+                  <td>
+                    <span data-i18n="parameters.sulfates">Sulfates</span>
+                    <span class="param-detail">(<span data-i18n="parameters.sulfates_formula">SO₄²⁻</span>)</span>
+                  </td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.alkalinity">Alkalinity</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.calcium_magnesium">Calcium/magnesium</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.sodium_table">Sodium</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <span data-i18n="parameters.ammonium">Ammonium</span>
+                    <span class="param-detail">(<span data-i18n="parameters.ammonium_formula">NH₄⁺</span>)</span>
+                  </td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.color">Color</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.odor_taste">Odor/taste</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.scaling">Scaling tendency</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+                <tr>
+                  <td data-i18n="parameters.corrosion">Corrosion potential</td>
+                  <td><span class="status-high" data-i18n="table.high">HIGH</span></td>
+                  <td><span class="status-ok-badge" data-i18n="table.ok">OK</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- View More Button -->
+          <button class="view-more-btn" id="viewMoreBtn">
+            <span class="view-more-text" data-i18n="view_more">View more parameters...</span>
+            <span class="view-less-text hidden" data-i18n="view_less">Show less</span>
+            <span class="arrow-icon">&#8250;</span>
+          </button>
+
+          <!-- Legend -->
+          <div class="legend">
+            <div class="legend-item">
+              <span class="legend-dot red"></span>
+              <span class="legend-label">Red <span class="legend-arrow">&#8593;</span> :</span>
+              <span data-i18n="legend.red">elevated baseline in raw water</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot green"></span>
+              <span class="legend-label">Green :</span>
+              <span data-i18n="legend.green">within WHO/EU/US EPA benchmarks</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot blue"></span>
+              <span class="legend-label">Blue :</span>
+              <span data-i18n="legend.blue">above benchmarks (if applicable)</span>
+            </div>
+          </div>
+
+          <!-- NDA Note -->
+          <p class="nda-note" data-i18n="nda_note">
+            The homepage shows status-only visualization without numeric values and without disclosing operating modes. Full before/after tables, sampling protocols (chain-of-custody), and lab reports available in White Paper and Data Room after e-NDA.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo at Bottom with extending lines -->
+    <div class="logo-section">
+      <!-- Line extending to the left -->
+      <div class="logo-line logo-line-left"></div>
+
+      <!-- Logo container -->
+      <div class="logo-container">
+        <div class="logo-circle">
+          <img src="assets/logo-aquintaqa.svg" alt="AQUINTAQA Logo" class="logo-img">
+        </div>
+        <span class="logo-text">AQUINTAQA</span>
+      </div>
+
+      <!-- Line extending to the right -->
+      <div class="logo-line logo-line-right"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

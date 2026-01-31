@@ -1,0 +1,102 @@
+{
+  "title": "QUALITY & STANDARDS",
+  "disclosure_note": "Публичный уровень раскрытия: цифры — только безопасные для IP «hook-метрики»; таблица — статус-тренды без значений.",
+  "badges": {
+    "who": "WHO",
+    "eu": "EU",
+    "us_epa": "US EPA",
+    "lab_verified": "Lab-verified",
+    "chain_of_custody": "Chain-of-custody",
+    "no_process_disclosure": "No process disclosure"
+  },
+  "badge_tooltips": {
+    "who": "Всемирная организация здравоохранения (ВОЗ)",
+    "eu": "Европейский союз (ЕС)",
+    "us_epa": "Агентство по охране окружающей среды США (EPA)",
+    "lab_verified": "Независимое лабораторное подтверждение. Отчёты и протоколы — в Data Room после e-NDA.",
+    "chain_of_custody": "Полное отслеживание проб от отбора до анализа",
+    "no_process_disclosure": "Операционные параметры остаются конфиденциальными"
+  },
+  "salt_reduction": {
+    "title": "Снижение солевой нагрузки",
+    "pilot": "pilot",
+    "value": "~900–1500×",
+    "description": "на основе репрезентативных пилотных проб (chain-of-custody); зависит от состава фида и конфигурации."
+  },
+  "recovery": {
+    "title": "Выход очищенной воды (Recovery)",
+    "value": "до 98%",
+    "description": "зависит от фида; минимальный объём концентрата/отходящего потока (полные протоколы — после e-NDA)."
+  },
+  "chloride": {
+    "title": "Хлорид-ион",
+    "formula": "Cl⁻",
+    "raw_label": "Raw:",
+    "raw_value": "48 000 mg/L",
+    "after_label": "After:",
+    "after_value": "52 mg/L",
+    "guideline_label": "Guideline (WHO/EU/US EPA):",
+    "guideline_value": "≤ 350 mg/L",
+    "status": "ниже ориентира"
+  },
+  "sodium": {
+    "title": "Натрий",
+    "formula": "Na⁺",
+    "raw_label": "Raw:",
+    "raw_value": "23 200 mg/L",
+    "after_label": "After:",
+    "after_value": "16 mg/L",
+    "guideline_label": "Guideline (WHO/EU/US EPA):",
+    "guideline_value": "≤ 200 mg/L",
+    "status": "ниже ориентира"
+  },
+  "metrics_legend": "Raw — исходная проба • After — после AQUINTAQA • Guideline — ориентир WHO/EU/US EPA",
+  "additional_metrics": {
+    "salt_capacity": "Работоспособность при солесодержании до 200 g/L",
+    "salt_capacity_note": "зависит от фида",
+    "particle_removal": "Эффективное удаление частиц < 1 μm",
+    "particle_removal_note": "коллоиды/взвеси"
+  },
+  "footer_note": "Приведённые цифры безопасны для раскрытия. Полные таблицы, chain-of-custody, лабораторные отчёты доступны после e-NDA.",
+  "quality_trends": {
+    "title": "Тренды качества «до/после» (без значений)",
+    "description": "Статус-сравнение относительно ориентиров WHO/EU/US EPA. Полные таблицы с цифрами — в Data Room (e-NDA)."
+  },
+  "table": {
+    "parameter": "Параметр",
+    "raw_status": "Raw статус",
+    "after_status": "After статус",
+    "high": "HIGH",
+    "ok": "OK"
+  },
+  "parameters": {
+    "tds": "TDS",
+    "tds_full": "общая минерализация",
+    "hardness": "Жёсткость",
+    "hardness_full": "Ca/Mg",
+    "nitrates": "Нитраты/нитриты",
+    "chlorides": "Хлориды",
+    "ntu": "NTU",
+    "ntu_full": "мутность",
+    "sulfates": "Сульфаты",
+    "sulfates_formula": "SO₄²⁻",
+    "alkalinity": "Щёлочность",
+    "calcium_magnesium": "Кальций/магний",
+    "sodium_table": "Натрий",
+    "ammonium": "Аммоний",
+    "ammonium_formula": "NH₄⁺",
+    "color": "Цветность",
+    "odor_taste": "Запах/вкус",
+    "scaling": "Склонность к накипи",
+    "corrosion": "Коррозионный потенциал"
+  },
+  "view_more": "Показать ещё ↓",
+  "view_less": "Скрыть",
+  "legend": {
+    "title": "Легенда:",
+    "red": "повышенный baseline в исходной воде",
+    "green": "в пределах ориентиров WHO/EU/US EPA",
+    "blue": "выше ориентиров (при необходимости)"
+  },
+  "nda_note": "На главной странице публикуется только статус-визуализация — без числовых значений и без раскрытия операционных режимов. Полные таблицы «до/после», протоколы отбора проб (chain-of-custody), и лабораторные отчёты доступны в White Paper и Data Room после e-NDA."
+}
