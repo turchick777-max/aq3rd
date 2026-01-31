@@ -253,6 +253,8 @@ body {
   gap: 10px;
   padding-bottom: 12px;
   flex-shrink: 0;
+  position: relative;
+  z-index: 10;
 }
 
 .badge {
@@ -301,8 +303,11 @@ body {
   transition: var(--transition-smooth);
   border: 1px solid var(--border-accent-hover);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 10px var(--accent-glow);
-  z-index: 100;
+  z-index: 1000;
   pointer-events: none;
+  max-width: 300px;
+  white-space: normal;
+  text-align: center;
 }
 
 .badge:hover::before {
