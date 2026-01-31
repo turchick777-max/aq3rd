@@ -51,11 +51,13 @@
     "status": "ниже ориентира"
   },
   "metrics_legend": "Raw — исходная проба • After — после AQUINTAQA • Guideline — ориентир WHO/EU/US EPA",
-  "additional_metrics": {
-    "salt_capacity": "Работоспособность при солесодержании до 200 g/L",
-    "salt_capacity_note": "зависит от фида",
-    "particle_removal": "Эффективное удаление частиц < 1 μm",
-    "particle_removal_note": "коллоиды/взвеси"
+  "particle_removal": {
+    "title": "Удаление частиц < 1 μm",
+    "description": "коллоиды / взвеси; подтверждено пилотными пробами (chain-of-custody)."
+  },
+  "feed_salinity": {
+    "title": "Допустимая минерализация фида: до 200 g/L",
+    "description": "по растворённым солям (TDS); зависит от состава фида (feed-dependent)."
   },
   "footer_note": "Приведённые цифры безопасны для раскрытия. Полные таблицы, chain-of-custody, лабораторные отчёты доступны после e-NDA.",
   "quality_trends": {

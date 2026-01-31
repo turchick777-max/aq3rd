@@ -381,33 +381,21 @@ body {
   margin-top: -4px;
 }
 
-/* Additional Metrics */
-.additional-metrics {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 12px;
-  background: var(--bg-card);
-  border: 1px solid var(--border-accent);
-  border-radius: 3px;
+/* Compact Metric Cards (Particle Removal, Feed Salinity) */
+.metric-card.particle-removal,
+.metric-card.feed-salinity {
+  padding: 10px 16px;
 }
 
-.additional-metric {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.75rem;
-  color: var(--text-primary);
+.metric-card.particle-removal .metric-header h3,
+.metric-card.feed-salinity .metric-header h3 {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
 }
 
-.metric-icon-small {
-  font-size: 1rem;
-  opacity: 0.8;
-}
-
-.metric-note {
-  color: var(--text-secondary);
-  font-size: 0.7rem;
+.metric-card.particle-removal .metric-description,
+.metric-card.feed-salinity .metric-description {
+  margin-top: 0;
 }
 
 /* Footer Note */
