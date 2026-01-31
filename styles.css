@@ -284,8 +284,7 @@ body {
 }
 
 /* Badge Tooltips */
-.badge::before {
-  content: attr(data-tooltip);
+.badge-tooltip {
   position: absolute;
   bottom: calc(100% + 8px);
   left: 50%;
@@ -297,7 +296,9 @@ body {
   border-radius: 6px;
   font-size: 0.7rem;
   font-weight: 400;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 300px;
+  text-align: center;
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-smooth);
@@ -305,12 +306,9 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 10px var(--accent-glow);
   z-index: 1000;
   pointer-events: none;
-  max-width: 300px;
-  white-space: normal;
-  text-align: center;
 }
 
-.badge:hover::before {
+.badge:hover .badge-tooltip {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(-4px);
